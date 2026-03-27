@@ -9,7 +9,9 @@
 
 | # | 스킬명 | 파일명 | 목적 | 등록일 | 버전 |
 |---|--------|--------|------|--------|------|
-| - | (아직 등록된 스킬 없음) | - | - | - | - |
+| 1 | service-planner | library/service-planner/SKILL.md | AI 서비스 기획 파트너 (기획 전용, 개발 설계 제외) | 2026-03-26 | v1.1 |
+| 2 | rfp-proposal | library/rfp-proposal/SKILL.md | RFP 분석 → 제안 전략 → 제안서 초안 생성 | 2026-03-26 | v1.2 |
+| 3 | dev-architect | library/dev-architect/SKILL.md | 기획→개발 전환 (SHARE: 팀 공유용 / CODE: 직접 코딩) | 2026-03-26 | v1.3 |
 
 ---
 
@@ -25,7 +27,7 @@
 - (없음)
 
 ### 🎨 UI/UX 설계
-- (없음)
+- service-planner v1.0 — AI 서비스 기획 파트너 (전략/정책/설계/API/운영 전체)
 
 ### 📧 커뮤니케이션
 - (없음)
