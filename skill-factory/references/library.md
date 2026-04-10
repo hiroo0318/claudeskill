@@ -1,7 +1,7 @@
 # Claude Skill Library
 
 > 17년차 모바일 서비스 기획자를 위한 Claude 스킬 라이브러리
-> 마지막 업데이트: 2026-03-29
+> 마지막 업데이트: 2026-04-08
 
 ---
 
@@ -15,6 +15,7 @@
 | 04 | `dev-architect` | v1.3 | 개발설계 | 기획→개발 설계 연결. SHARE(팀 공유 문서) / CODE(직접 설계) | "개발 설계", "API 설계", "DB 설계", "ERD" |
 | 05 | `vibe-coding` | v1.0 | 코딩 | 기획 의도를 실행 가능한 코드로 즉시 전환. React/Vue/HTML+Supabase | "바이브코딩", "코드 짜줘", "구현해줘" |
 | 06 | `ui-publisher` | v1.0 | UI/퍼블 | 기획→화면설계→퍼블리싱 전 흐름. React/Vue/HTML 지원 | "화면 설계", "퍼블리싱", "UI 만들어줘", "/react", "/vue", "/html" |
+| 07 | `tech-reviewer` | v1.0 | 개발협업 | 풀스택 기술 검토·설명. Spring Boot/Vue/React/DB/Infra 실무 수준 설명 | "기술 검토", "개발 설명해줘", "Spring Boot", "Vue", "React", "DB 설계", "배포 설정" |
 
 ---
 
@@ -31,6 +32,8 @@ ui-publisher ← (화면 설계 · 퍼블리싱 특화)
 제안 흐름:
 rfp-proposal (독립 운영)
 
+tech-reviewer (개발팀 협업 · 기술 검토)
+
 스킬 관리:
 skill-factory (전체 관리)
 ```
@@ -46,6 +49,7 @@ skill-factory (전체 관리)
 | `vibe-coding` | 빠른 프로토타이핑, Supabase 연동, 전체 앱 구현 | UI/UX 구조 설계 → `ui-publisher` |
 | `ui-publisher` | 화면 설계, 컴포넌트 정의, 퍼블리싱 코드 | 백엔드 로직, DB 연동 → `dev-architect` / `vibe-coding` |
 | `rfp-proposal` | RFP 분석, 제안서 작성 전 과정 | 실제 서비스 기획 → `service-planner` |
+| `tech-reviewer` | 기술 개념 설명, 설정 가이드, 기술 비교 | 서비스 기획 → `service-planner` / 코드 구현 → `vibe-coding` |
 
 ---
 
